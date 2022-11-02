@@ -79,4 +79,50 @@ Un DSL es un lenguaje de programación con un **nivel superior de abstracción**
 
 ## Clasificación en la arquitectura cliente-servidor
 
+La estructura cliente - servidor es una arquitectura de computación en la que se consigue un procesamiento cooperativo de la información por medio de un conjunto de procesadores, de tal forma que uno o varios clientes, distribuidos geográficamente o no, solicitan servicios de computación a uno o más servidores.
+
+De esta forma, y gracias a esta arquitectura, la totalidad de los procesadores, clientes y servidores, trabajan de forma cooperativa para realizar un determinado tratamiento de la información.
+
+## ELEMENTOS QUE FORMAN PARTE DE UNA **ARQUITECTURA CLIENTE - SERVIDOR**.
+
+Un sistema Cliente/Servidor es un Sistema de Información distribuido basado en las siguientes características:
+
+- Servicio: unidad básica de diseño. El servidor los proporciona y el cliente los utiliza.
+
+- Recursos compartidos: Muchos clientes utilizan los mismos servidores y, a través de ellos, comparten tanto recursos lógicos como físicos.
+
+- Protocolos asimétricos: Los clientes inician “conversaciones”. Los servidores esperan su establecimiento pasivamente.
+
+- Transparencia de localización física de los servidores y clientes: El cliente no tiene por qué saber dónde se encuentra situado el recurso que desea utilizar.
+
+- Independencia de la plataforma HW y SW que se emplee.
+
+- Sistemas débilmente acoplados. Interacción basada en envío de mensajes.
+
+- Encapsulamiento de servicios. Los detalles de la implementación de un servicio son transparentes al cliente.
+
+- Escalabilidad horizontal (añadir clientes) y vertical (ampliar potencia de los servidores).
+
+- Integridad: Datos y programas centralizados en servidores facilitan su integridad y mantenimiento.
+
+- En el modelo usual Cliente/Servidor, un servidor, (daemon en la terminología sajona basada en sistemas UNIX/LINUX, traducido como "demonio") se activa y espera las solicitudes de los clientes.
+
+
+Lo normal es que los servicios de un mismo servidor puedan ser utilizados por múltiples clientes distintos. Tanto los programas cliente como los servidores son con frecuencia parte de un programa o aplicación mayores.
+
+## ESQUEMA DE FUNCIONAMIENTO DE UN SISTEMA SEGÚN LA ARQUITECTURA CLIENTE - SERVIDOR.
+
+El Esquema de funcionamiento de un Sistema Cliente/Servidor sería:
+
+- El cliente solicita una información al servidor.
+
+- El servidor recibe la petición del cliente.
+
+- El servidor procesa dicha solicitud.
+
+- El servidor envía el resultado obtenido al cliente.
+
+- El cliente recibe el resultado y lo procesa.
+
+
 <!-- TODO -->
