@@ -78,4 +78,4 @@ Un DSL es un lenguaje de programación con un **nivel superior de abstracción**
 
 ## Clasificación en la arquitectura cliente-servidor
 
-JavaScript es un lenguaje de lado cliente y PHP un lenguaje de lado servidor.
+<!-- TODO: Completar -->
