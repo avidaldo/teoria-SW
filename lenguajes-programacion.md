@@ -76,7 +76,6 @@ Un lenguaje específico de dominio, lenguaje de propósito específico o **DSL (
 
 Un DSL es un lenguaje de programación con un **nivel superior de abstracción** optimizado para una clase específica de problemas. Es por ello normalmente menos complejo en su uso que un lenguaje de propósito general. En muchos casos, los DSL están destinados no para ser usados por expertos en software, sino por no programadores que son versados en el dominio de aplicación del DSL.  -- <cite>[jetbrains.com](https://www.jetbrains.com/es-es/mps/concepts/domain-specific-languages/)</cite>
 
-
 ## Clasificación en la arquitectura cliente-servidor
 
-<!-- TODO -->
+JavaScript es un lenguaje de lado cliente y PHP un lenguaje de lado servidor.
