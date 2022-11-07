@@ -84,3 +84,4 @@ Hoy en día, la **JVM** utiliza un compilador JIT para compilar el bytecode en *
 
 [Programa simple en C (compilado), Python (interpretado) y Java (JDK)](https://www.youtube.com/watch?v=qmb6PZLs1Hk)  
 - [Descarga MinGW (compilador de C para Windows](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/))
+- [Ejemplos de código](https://github.com/avidaldo/ejemplos-codigo)
