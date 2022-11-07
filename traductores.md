@@ -19,14 +19,14 @@ Se habla de **cross-compilar** cuando se produce código fuente para un sistema 
 
 El proceso de compilación se compone de las siguientes fases:
 
-1. Análisis o frontend
-1.1 Análisis léxico: separación en palabras clave (class, public, int...)
-1.2 Análisis sintáctico: comprueba que el orden en que se combinan esas palabras se adecúen a las reglas del lenguaje de programación.
-1.3 Análisis semántico: interpreta el significado de operadores, operandos, variables y demás símbolos para generar el código intermedio.
+1. Análisis o frontend  
+   1. Análisis léxico: separación en palabras clave (class, public, int...)
+   2. Análisis sintáctico: comprueba que el orden en que se combinan esas palabras se adecúen a las reglas del lenguaje de programación.
+   3. Análisis semántico: interpreta el significado de operadores, operandos, variables y demás símbolos para generar el código intermedio.
 2. Síntesis o backend
-2.1 Generación del código máquina
-2.2 Optimización
-2.3 Enlazador y generación de código objeto.
+   1. Generación del código máquina
+   2. Optimización
+   3. Enlazador y generación de código objeto.
 
 ## Intérpretes
 
