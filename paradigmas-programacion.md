@@ -64,7 +64,7 @@ Se fundamenta en el [teorema de la programación estructurada (1966)](https://es
 
 La programación procedimental (a menudo usado como sinónimo de imperativa) enfatiza el uso de llamadas a **procedimientos** (subrutinas) y es la primera forma de [modularidad](#modularidad). Los procedimientos son una serie de sentencias agrupadas en un **bloque** que es el **ámbito (scope)** en el que una variable es visible. Hoy en día los procedimientos en general han evolucionado a **funciones** (o **métodos** en OOP).
 
-## Programación orientada a objetos (OOP)
+### Programación orientada a objetos (OOP)
 
 Se trata de un paradigma basado en el concepto de "objectos" que pueden contener datos (**campos (fields)**) y código (**métodos**) y que interactúan entre ellos.
 Normalmente los métodos están encapsulados en el objeto junto con sus campos y son los que permiten acceder y modificar sus campos.
@@ -75,7 +75,7 @@ La mayor parte de los lenguajes más populares (**C++, Java, C#, Python, JavaScr
 
 Un objeto se puede describir como una colección de posiciones de memoria junto con todas las operaciones que pueden cambiar los valores de dichas posiciones. Un ejemplo muy básico de objeto es una variable con operaciones de asignación de valor y de recogida de su valor.
 
-### Programación basada en clases
+#### Programación basada en clases
 
 La programación basada en clases es el modelo más popular y desarrollado de OOP. Los objetos son siempre instancias de clases; la clase es el tipo del objeto, de forma análoga a como una variable tiene un determinado tipo. La clase es una definición, un plano, que define la estructura y comportamiento del objeto. Cada clase representa un tipo con un estado (definido por unos campos) y operaciones (métodos) que pueden invocar desde los objetos (instancias) de la clase.
 
@@ -85,7 +85,7 @@ El uso de **herencia** entre clases (unas clases pueden heredar campos y método
 
 Destacan como lenguajes basados en clases **C++ o especialmente Java**.
 
-### Programación basada en prototipos
+#### Programación basada en prototipos
 
 La Programación basada en prototipos es un tipo de **OOP** en el cual la reutilización de comportamiento (**herencia**) se desarrolla mediante la reutilización de objetos que sirven como prototipos.
 
