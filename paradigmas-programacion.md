@@ -26,7 +26,7 @@ De este modo, se escriben menos líneas de código en total, se mejora la legibi
 
 ### Ocultación de información
 
-Es un principio e diseño que protege datos del programa de ser modificados por bloques de código que no deban acceder a ellos.
+Es un principio de diseño que protege datos del programa de ser modificados por bloques de código que no deban acceder a ellos.
 
 ### Separation of Concerns
 
@@ -50,11 +50,11 @@ El concepto de "**instrucción**" se asocia con el lenguaje máquina (o ensambla
 
 ### Programación estructurada
 
-Paradigma que busca mejorar la legibilidad (y con ello el tiempo de desarrollo) mediante la utilización exclusiva de
+Paradigma que busca mejorar la legibilidad (y con ello el tiempo de desarrollo) mediante la utilización exclusiva de:
 
-- Secuencia: ejecución de sentencias secuencialmente (incluyendo llamadas a subprogramas)
-- Control de flujo (if/else)
-- Iteración: bucles (while, for)
+- Secuencias: ejecución de sentencias secuencialmente (incluyendo llamadas a subprogramas)
+- Controles de flujo (if/else)
+- Iteraciónes: bucles (while, for)
 
 Se fundamenta en el [teorema de la programación estructurada (1966)](https://es.wikipedia.org/wiki/Teorema_del_programa_estructurado) y el artículo ["Go To Statement considered Harmful" (1968)](https://es.wikipedia.org/wiki/GOTO#Controversia_sobre_el_uso_de_GOTO).
 
