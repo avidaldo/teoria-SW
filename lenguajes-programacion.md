@@ -55,7 +55,7 @@ Los primeros son:
 
 En esta generación incluiríamos lenguajes de uso común hasta la actualidad (o incluso de reciente creación) como **C, C++, Java o Go**. Estos lenguajes se denominan de **alto nivel (de abstracción)** por estar bastante alejados del lenguaje máquina y más cerca del lenguaje natural.
 
-Dentro de lo que aquí se ha categorizado como lenguajes de alto nivel existen algunos, como **C** (1974), que a en la actualizad son llamados lenguajes de **medio nivel** (o incluso bajo) por ofrecer un acceso muy directo al nivel de máquina (como el direccionamiento de posiciones de memoria), que se distancian así de otros de “más alto nivel” como **C#** o **Java**.
+Dentro de lo que aquí se ha categorizado como lenguajes de alto nivel existen algunos, como **C** (1972), que a en la actualizad son llamados lenguajes de **medio nivel** (o incluso bajo) por ofrecer un acceso muy directo al nivel de máquina (como el direccionamiento de posiciones de memoria), que se distancian así de otros de “más alto nivel” como **C#** o **Java**.
 
 Podríamos decir que dentro de los lenguajes de alto nivel, también hay lenguajes que se encuentran a distintos niveles de abstracción.
 
@@ -65,7 +65,7 @@ Se consideran lenguajes de cuarta generación a [**lenguajes de propósito espec
 
 ### Quinta generación
 
-Se llamaron lenguajes de quinta generación a algunos utilizados en **inteligencia artificial**. Se trata de lenguajes que permiten especificar restricciones que se le indican al sistema y resuelve un determinado problema sujeto a estas restricciones (**Constraint programming**). Algunos ejemplos serían **Prolog** o Mercury.
+Se llamaron lenguajes de quinta generación a algunos utilizados en **inteligencia artificial**. Se trata de lenguajes que permiten especificar restricciones que se le indican al sistema y resuelve un determinado problema sujeto a estas restricciones (**Constraint Programming**). Algunos ejemplos serían **Prolog** o Mercury.
 
 ## Clasificación por ámbito
 
