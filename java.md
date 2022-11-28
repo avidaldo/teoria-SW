@@ -24,4 +24,4 @@ Las principales partes a diferenciar de Java son:
 
 ![jdk](img/jdK2.png)
 
-![jdk](img/jdK3.png)
+![jdk](img/jdk3.png)
