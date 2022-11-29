@@ -78,4 +78,19 @@ Un DSL es un lenguaje de programación con un **nivel superior de abstracción**
 
 ## Clasificación en la arquitectura cliente-servidor
 
-<!-- TODO: Completar -->
+El navegador es una especie de aplicación capaz de interpretar las órdenes recibidas en forma de código HTML fundamentalmente y convertirlas en las páginas que son el resultado de dicha orden.
+Cuando nosotros pinchamos sobre un enlace hipertexto, en realidad lo que pasa es que establecemos una petición de un archivo HTML residente en el servidor (un ordenador que se encuentra continuamente conectado a la red) el cual es enviado e interpretado por nuestro navegador (el cliente). Así pues, podemos hablar de lenguajes de lado servidor que son aquellos lenguajes que son reconocidos, ejecutados e interpretados por el propio servidor y que se envían al cliente en un formato comprensible para él. Por otro lado, los lenguajes de lado cliente (entre los cuales no sólo se encuentra el HTML sino también el Java y el JavaScript los cuales son simplemente incluidos en el código HTML) son aquellos que pueden ser directamente "digeridos" por el navegador y no necesitan un pretratamiento.
+
+### Cliente
+En el lado cliente, la programación se ejecuta en la máquina del usuario, es la opción más segura y  por la que optan la mayoría de programadores pero presenta una serie de límites de control y problemas con los navegadores web. 
+Los lenguajes del lado cliente más utilizados son: Visual Basic Script y JavaScript.
+
+### Servidor
+La programacion del lado servidor se ejecuta en el propio servidor de forma que se reducen los errores a raiz de la compatibilidad.
+Los lenguajes del lado servidor más utilizados son: ASP, PERL y PHP.
+
+![lenguajes_programacion_4](./img/lenguajes_programacion_4.jpg)
+![lenguajes_programacion_2](./img/lenguajes_programacion_2.jpg)
+<br><br>
+![lenguajes_programacion_3](./img/lenguajes_programacion_3.png) 
+
