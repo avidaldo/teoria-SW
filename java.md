@@ -1,10 +1,10 @@
 # Java
 
-Java es, además de un lenguaje de programación, toda un ecosistema de frameworks y software desarrollado por James Gosling en los años 90 (la primera versión es de 1996). El lenguaje Java pone su énfasis en la programación orientada a objetos, siendo estrictamente basado en clases. Se basa en C++ (que era probablemente el lenguaje de programación de propósito general más popular antes de Java), eliminando la herencia múltiple para utilizar las jerarquías de clases para ordenar librerías de un modo jerárquico.
+Java es, además de un lenguaje de programación, todo un ecosistema de frameworks y software desarrollado por James Gosling en los años 90 (la primera versión es de 1996). El lenguaje Java pone su énfasis en la programación orientada a objetos, siendo estrictamente basado en clases. Se basa en C++ (que era probablemente el lenguaje de programación de propósito general más popular antes de Java), eliminando la herencia múltiple para utilizar las jerarquías de clases para ordenar librerías de un modo jerárquico.
 
 Java es un lenguaje que se compila a **bytecode**, un código intermedio que se interpreta en la JVM para garantizar una gran portabilidad. El mismo bytecode puede ser ejecutado en distintas máquinas sobre su JVM correspondiente.
 
-Los fuente de Java están organizados en clases que se almacenan en ficheros .java. Estos deben ser compilados para crear los ficheros objeto de la JVM. Cuando se compila un fichero fuente .java se generan uno o varios archivos .class, uno por cada clase que tenga el fichero. Estos ficheros contienen el bytecode.
+Los ficheros de código fuente de Java están organizados en clases que se almacenan en ficheros .java. Estos deben ser compilados para crear los ficheros objeto de la JVM(Java Virtual Machine). Cuando se compila un fichero fuente .java se generan uno o varios archivos .class, uno por cada clase que tenga el fichero. Estos ficheros contienen el bytecode.
 
 ![jvm](img/jvm-multiplatform.png)
 
