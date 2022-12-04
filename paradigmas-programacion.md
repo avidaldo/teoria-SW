@@ -79,7 +79,7 @@ Un objeto se puede describir como una colección de posiciones de memoria junto 
 
 La programación basada en clases es el modelo más popular y desarrollado de OOP. Los objetos son siempre instancias de clases; la clase es el tipo del objeto, de forma análoga a como una variable tiene un determinado tipo. La clase es una definición, un plano, que define la estructura y comportamiento del objeto. Cada clase representa un tipo con un estado (definido por unos campos) y operaciones (métodos) que pueden invocar desde los objetos (instancias) de la clase.
 
-La Programación basada en prototipos es un tipo de **OOP** en el cual la reutilización de comportamiento (**herencia**) se desarrolla mediante la reutilización de objetos que sirven como prototipos.
+
 
 El uso de **herencia** entre clases (unas clases pueden heredar campos y métodos de otras) permite **extender** clases, creando **jerarquías de clases**, y **polimorfismo**, que permite manipular un conjunto de objetos de distinto tipo como algo uniforme sujeto a ciertas restricciones.
 
