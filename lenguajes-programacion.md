@@ -78,4 +78,13 @@ Un DSL es un lenguaje de programación con un **nivel superior de abstracción**
 
 ## Clasificación en la arquitectura cliente-servidor
 
+Los lenguajes de programación se pueden clasificar en funcion de su uso en la aruqitectura cliente-servidor. En esta aquitectura, el cliente es un dispositivo que envía solicitudes a un servidor, que a su vez procesa las solicitudes y envía las respuestas de vuelta al cliente.
+
+Se pueden dividir en dos categorías principales en la arquitectura cliente-servidor:
+
+-Lenguajes de programación del lado del cliente: Estos lenguajes se utilizan para la creacion de aplicaciones que se ejecutan en el dispositivo del cliente, como un navegador web o una aplicación móvil. Algunos lenguajes de programación que se usan son **HTML** ,**CSS**, **JavaScript**, etc.
+
+-Lenguajes de programación del lado del servidor: Estos lenguajes son los que se utilizan para la creación de aplicaciones que se ejecutan en un servidor y procesan las solicitudes del cliente. Los lenguajes de programación del lado servidor como **PHP**, **Python**, **C#**, etc.
+
+Algo que hay que tener en cuenta es que esta division no es absoluta y que algunos de los lenguajes de programación, como JavaScript, pueden utilizarse tanto del lado del cliente como del lado del servidor.
 <!-- TODO: Completar -->
