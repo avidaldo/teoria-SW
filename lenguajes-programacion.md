@@ -2,18 +2,27 @@
 
 ## Introducción
 
-<!-- TODO: Máquina de Turing -->
-
 Para partir de un breve resumen de la historia de la computación, nos remontamos a los años 30, cuando se construyeron las primeras máquinas capaces de realizar ciertas operaciones, si bien normalmente estaban orientadas a realizar algún tipo concreto de cálculo científico. Existe cierto acuerdo en que el **ENIAC** (1946) puede considerarse el primer computador realmente de **propósito general**. El ENIAC no se programaba utilizando un lenguaje de programación, sino cableando directamente sus circuitos.
+
+### Máquina Turing
+La máquina de Turing es un dispositivo que manipula símbolos sobre una tira de cinta de acuerdo con una tabla de reglas.
+
+La importancia de la máquina de Turing en la historia de la computación es doble: primero, la máquina de Turing fue uno de los primeros (si no el primero) modelos teóricos para las computadoras, viendo la luz en 1936. Segundo, estudiando sus propiedades abstractas, la máquina de Turing ha servido de base para mucho desarrollo teórico en las ciencias de la computación .
 
 Las primeras máquinas de computación tenían programas fijos. Algunos equipos muy simples siguen utilizando este diseño, ya sea por motivos de simplificación o de formación. Por ejemplo, una calculadora de escritorio es (en principio) una computadora de programa fijo. En ella, se pueden hacer matemáticas básicas, pero no puede ser utilizada como procesador de texto o consola de juegos. Cambiar el programa de una máquina de programa fijo requiere recablear, reestructurar, o rediseñar la máquina. Las primeras computadoras no eran tanto "programadas" ya que fueron "diseñadas". "Reprogramar" cuando era posible, era un proceso laborioso que comenzaba con diagramas de flujo y notas de papel, seguido de diseños detallados de ingeniería y luego el muchas veces arduo proceso de recablear físicamente y reconstruir la máquina. Podía tomar hasta tres semanas preparar un programa de ENIAC y conseguir que funcionara.
  -- <cite>[Wikipedia](https://es.wikipedia.org/wiki/Arquitectura_de_Von_Neumann#cite_ref-4)</cite>
-
+### Arquitectura Von Neuman
 Por esa época, **John Von Neumann** propuso una **[arquitectura](https://es.wikipedia.org/wiki/Arquitectura_de_Von_Neumann)** diferente para las computadoras, donde **el programa se almacena en un área de memoria** de la máquina antes de **ejecutarse secuencialmente por la unidad de procesamiento (CPU)**. Esto permitió, a partir de entonces, evitar tener que cablear todos los componentes para cada nuevo problema. Es entonces donde empieza la historia de los lenguajes de programación.
 
-<!-- TODO: Arquitectura Harvard -->
-<!-- TODO: programa almacenado https://es.wikipedia.org/wiki/Computador_de_programa_almacenado -->
+Bajo arquitectura de von Neumann pura, la CPU puede estar bien leyendo una instrucción o escribiendo datos en memoria pero ambos procesos **no pueden ocurrir al mismo tiempo**, ya que las instrucciones y datos usan el mismo sistema de buses. 
 
+### Arquitectura Harvard
+La arquitectura de Harvard es una arquitectura de computadora con pistas de almacenamiento y de señal físicamente separadas para las instrucciones y para los datos.En una computadora que utiliza la **arquitectura Harvard**, la CPU puede tanto leer una instrucción como realizar un acceso a la memoria de datos al mismo tiempo.En consecuencia, una arquitectura de computadores Harvard puede ser más rápida para un circuito complejo, debido a que la instrucción obtiene acceso a datos y no compite por una única vía de memoria.
+
+### Programa almacenado
+A diferencia de los primeros computadores, von Neumann proponía que tanto el programa como sus datos fueran almacenados en la memoria del computador.Esto no solo simplificaba la labor de programación al no tener que llevar a cabo el recableado del computador sino que además libraba y generalizaba el diseño del hardware para hacerlo independiente de cualquier problema y enfocado al control y ejecución del programa. Este concepto fue tan importante y decisivo que dio lugar al concepto de la arquitectura de von Neumann, aún presente en nuestros días.
+
+### ¿Qué es un lenguaje de programación?
 Un lenguaje de programación es una notación especial para comunicarse con el ordenador: un conjunto de símbolos con una sintaxis y una semántica que permite definir instrucciones interpretables por una CPU (directamente o mediante traducción).
 
 Para la implementación de los programas, los lenguajes de programación nos proporcionan:
@@ -78,13 +87,24 @@ Un DSL es un lenguaje de programación con un **nivel superior de abstracción**
 
 ## Clasificación en la arquitectura cliente-servidor
 
-Los lenguajes de programación se pueden clasificar en funcion de su uso en la aruqitectura cliente-servidor. En esta aquitectura, el cliente es un dispositivo que envía solicitudes a un servidor, que a su vez procesa las solicitudes y envía las respuestas de vuelta al cliente.
+![lenguajes_programacion_3](./img/lenguajes_programacion_3.png) 
 
-Se pueden dividir en dos categorías principales en la arquitectura cliente-servidor:
+El navegador es una especie de aplicación capaz de interpretar las órdenes recibidas en forma de código HTML fundamentalmente y convertirlas en las páginas que son el resultado de dicha orden.
+Cuando nosotros pinchamos sobre un enlace hipertexto, en realidad lo que pasa es que establecemos una petición de un archivo HTML residente en el servidor (un ordenador que se encuentra continuamente conectado a la red) el cual es enviado e interpretado por nuestro navegador (el cliente). Así pues, podemos hablar de lenguajes de lado servidor que son aquellos lenguajes que son reconocidos, ejecutados e interpretados por el propio servidor y que se envían al cliente en un formato comprensible para él. Por otro lado, los lenguajes de lado cliente (entre los cuales no sólo se encuentra el HTML sino también el Java y el JavaScript los cuales son simplemente incluidos en el código HTML) son aquellos que pueden ser directamente "digeridos" por el navegador y no necesitan un pretratamiento.
 
--Lenguajes de programación del lado del cliente: Estos lenguajes se utilizan para la creacion de aplicaciones que se ejecutan en el dispositivo del cliente, como un navegador web o una aplicación móvil. Algunos lenguajes de programación que se usan son **HTML** ,**CSS**, **JavaScript**, etc.
+![lenguajes_programacion_4](./img/lenguajes_programacion_1.jpg)
 
--Lenguajes de programación del lado del servidor: Estos lenguajes son los que se utilizan para la creación de aplicaciones que se ejecutan en un servidor y procesan las solicitudes del cliente. Los lenguajes de programación del lado servidor como **PHP**, **Python**, **C#**, etc.
+### Cliente
+Son aquellos que se ejecutan en el navegador del usuario y son responsables de la interfaz de usuario y la interactividad de una aplicación web, son la opción más segura y por la que optan la mayoría de programadores pero presenta una serie de límites de control y problemas con los navegadores web. 
 
-Algo que hay que tener en cuenta es que esta division no es absoluta y que algunos de los lenguajes de programación, como JavaScript, pueden utilizarse tanto del lado del cliente como del lado del servidor.
-<!-- TODO: Completar -->
+Los lenguajes del lado cliente más utilizados son: Visual Basic Script y JavaScript.
+
+Además, del lado cliente hay algunas bibliotecas y frameworks que están hechos a partir de lenguajes básicos y nos proporcionan herramientas y funcionalidades adicionaes para facilitar el desarrollo de aplicaciones web.
+
+### Servidor
+
+La programacion del lado servidor se ejecuta en el propio servidor de forma que se reducen los errores a raiz de la compatibilidad, son responsables de procesar las solicitudes del cliente.
+
+Los lenguajes del lado servidor más utilizados son: ASP, PERL y PHP.
+
+![lenguajes_programacion_2](./img/lenguajes_programacion_2.jpg)
